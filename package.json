@@ -1,0 +1,8 @@
+{
+	"name": "startcoin-hd",
+	"description": "A tool that allows an HD (Hierarchical Deterministic) wallet to be created for StartCOIN",
+	"repository": "git://github.com/lukem512/startcoin-hd.git",
+	"dependencies": {
+		"startcore": "git://github.com/atomicjets/startcore.git#3f8689ec7308c22cf6a9ae41fc3429e25304db8e"
+	}
+}
