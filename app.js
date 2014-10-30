@@ -10,7 +10,7 @@ var knownBytes = coinUtil.sha256(seed);
 var hkey = HierarchicalKey.seed(knownBytes);
 
 var derived = hkey.derive('m/0\'/0/0');
-var priv = new bitcore.PrivateKey(networks.livenet.privKeyVersion, derived.eckey.private, derived.eckey.compressed);
+var priv = new startcore.PrivateKey(networks.livenet.privKeyVersion, derived.eckey.private, derived.eckey.compressed);
 var wif = priv.toString();
 
 console.log('Using seed: ' + seed);
