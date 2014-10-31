@@ -15,7 +15,7 @@ var wif = priv.toString();
 
 console.log('Passphrase:\t\t' + seed);
 console.log('Derived Private Key:\t' + derived.extendedPrivateKeyString());
-console.log('Private Key (WIF):\t' + wif)
+console.log('Private Key (WIF):\t' + wif);
 console.log('Derived Public Key:\t' + derived.extendedPublicKeyString());
 console.log('Public Key (Hex):\t' + startcore.buffertools.toHex(derived.eckey.public));
 console.log('Address:\t\t' + Address.fromPubKey(derived.eckey.public, 'startcoin'));
